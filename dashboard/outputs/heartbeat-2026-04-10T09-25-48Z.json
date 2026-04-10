@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🫀 Heartbeat — 2026-04-10"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_tracking",
+        "alert_activity",
+        "alert_clean"
+      ]
+    },
+    "alert_tracking": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 TRACKING",
+        "message": "cron-state.json is empty — heartbeat (only enabled skill) has never been recorded by the scheduler. State tracking may not be wired up."
+      }
+    },
+    "alert_activity": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "🔵 ACTIVITY GAP",
+        "message": "Last log entry is 22 days old (2026-03-19). No skill activity recorded since."
+      }
+    },
+    "alert_clean": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "All other checks clean: no failed/stuck skills, no open PRs, no urgent issues."
+      }
+    }
+  }
+}
