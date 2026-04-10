@@ -1,11 +1,12 @@
-HEARTBEAT_OK — all systems nominal.
+HEARTBEAT_OK
 
 ## Summary
 
-- **Ran heartbeat skill** with all checks (P0–P3)
-- **P0:** No failed, stuck, degraded, or chronically failing skills. Heartbeat self-check passed.
-- **P1:** No stalled PRs or urgent issues.
-- **P2:** No flagged memory items needing follow-up.
-- **P3:** No missing scheduled skills — heartbeat is the only enabled skill and has a current cron-state entry.
-- **Logged** run 3 to `memory/logs/2026-04-10.md`
-- No notification sent (nothing needs attention)
+Ran all heartbeat checks (P0–P3):
+
+- **P0 — Failed & stuck skills**: All clear. 2 tracked skills (`heartbeat`, `gcampton-post`) both at 100% success rate with no failures or stuck dispatches.
+- **P1 — Stalled PRs & urgent issues**: No open PRs. Issues disabled on repo.
+- **P2 — Flagged memory items**: Nothing requiring follow-up.
+- **P3 — Missing scheduled skills**: `heartbeat` (only enabled skill) has a recent cron-state entry — no gaps.
+
+No notification sent (nothing needs attention). Logged results to `memory/logs/2026-04-10.md`.
