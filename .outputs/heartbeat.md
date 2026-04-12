@@ -1,10 +1,9 @@
 ## Summary
 
-- **Skill executed**: Heartbeat (run 4 for 2026-04-12)
-- **Result**: HEARTBEAT_OK — all checks passed
-  - P0: Both tracked skills (heartbeat 15/15, gcampton-post 2/2) healthy with 100% success rates
-  - P1: No open PRs, issues disabled
-  - P2: No flagged memory items
-  - P3: No missing scheduled skills
-- **Files modified**: `memory/logs/2026-04-12.md` (appended run 4 log entry)
-- **No notification sent** (nothing needs attention)
+- **Skill executed:** Heartbeat
+- **Result:** HEARTBEAT_OK — all checks passed, nothing needs attention
+- **P0:** No failed, stuck, degraded, or chronically failing skills. Both tracked skills (heartbeat 16/16, gcampton-post 2/2) at 100% success rate.
+- **P1:** No stalled PRs. Issues disabled on repo.
+- **P2:** No flagged memory items.
+- **P3:** No missing scheduled skills.
+- **File modified:** `memory/logs/2026-04-12.md` — appended run 5 log entry.
