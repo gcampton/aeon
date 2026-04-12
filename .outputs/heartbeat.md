@@ -1,7 +1,10 @@
-HEARTBEAT_OK — nothing needs attention.
-
 ## Summary
-- **Executed:** Heartbeat skill (all P0–P3 checks)
-- **Findings:** All clear. 2 tracked skills healthy (100% success rate), no open PRs, no flagged memory items, no missing scheduled skills.
-- **Files created:** `memory/logs/2026-04-12.md`
-- **Follow-up:** None needed.
+
+**HEARTBEAT_OK** — all checks passed.
+
+- **P0:** 2 tracked skills (heartbeat, gcampton-post), both healthy with 100% success rates. No failures, stuck dispatches, API degradation, or chronic issues.
+- **P1:** No open PRs, issues disabled on repo.
+- **P2:** No flagged memory items.
+- **P3:** Only enabled skill (heartbeat) has recent cron-state entry — no missing skills.
+- **Files modified:** `memory/logs/2026-04-12.md` (appended run 2 log entry)
+- **No notification sent** (nothing needs attention).
