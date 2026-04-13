@@ -1,13 +1,13 @@
 {
   "heartbeat": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-04-13T14:26:07Z",
     "total_runs": 20,
     "total_successes": 20,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1,
-    "last_dispatch": "2026-04-13T14:25:08Z"
+    "last_dispatch": "2026-04-13T20:08:09Z"
   },
   "gcampton-post": {
     "last_status": "success",
