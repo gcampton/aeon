@@ -1,15 +1,15 @@
 {
   "heartbeat": {
-    "last_status": "dispatched",
+    "last_status": "failed",
     "last_success": "2026-04-14T08:17:26Z",
-    "total_runs": 173,
+    "total_runs": 174,
     "total_successes": 23,
-    "total_failures": 150,
-    "consecutive_failures": 150,
+    "total_failures": 151,
+    "consecutive_failures": 151,
     "success_rate": 0.13,
     "last_dispatch": "2026-04-19T11:21:16Z",
-    "last_failed": "2026-04-19T10:45:47Z",
-    "last_error": "6b235b7\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
+    "last_failed": "2026-04-19T11:21:28Z",
+    "last_error": "c569bd5\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "gcampton-post": {
     "last_status": "success",
